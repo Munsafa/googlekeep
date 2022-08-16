@@ -1,0 +1,99 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.main-div {
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+.form-div {
+  /* height: 100vh; */
+  height: 45vh;
+  width: 100vh;
+  display: flex;
+  background: white;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  background: white;
+}
+input {
+  margin-top: 20px;
+  padding: 15px 10px 10px 10px;
+  height: 20px;
+  width: 310px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input::placeholder {
+  font-size: 1.5rem;
+}
+textarea {
+  /* margin-top: 10px; */
+  height: 150px;
+  padding: 15px 10px 10px 10px;
+  width: 310px;
+  border: none;
+  outline: none;
+  resize: none;
+  border-radius: 0px 0px 15px 15px;
+  font-size: 0.9rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.submit-btn {
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  background: orange;
+  color: white;
+  border: none;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+
+.outputDiv {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+}
+
+.note-div {
+  color: white;
+  padding: 8px;
+  margin: 15px;
+  display: flex;
+  /* flex: 1; */
+  flex-direction: column;
+  align-items: flex-start;
+  float: left;
+  background: white;
+  color: black;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  height: 40px;
+  width: 40px;
+  outline: none;
+  background: orange;
+  color: white;
+  border: none;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  margin-left: 80%;
+}
